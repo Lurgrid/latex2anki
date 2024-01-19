@@ -1,0 +1,13 @@
+[package]
+name = "latex2anki"
+version = "0.1.0"
+description = "latex2anki is a Rust-based application engineered to automate the conversion of LaTeX documents into Anki flashcard decks. This project aims to streamline the learning process for students and professionals who utilize LaTeX for complex documentation, particularly in fields like mathematics, physics, engineering, and computer science."
+edition = "2021"
+authors = ["Lurgrid"]
+repository = "https://github.com/Lurgrid/latex2anki/"
+readme = "README.md"
+license-file = "LICENSE"
+
+[dependencies]
+genanki-rs = "0.4.0"
+rand = "0.8.5"
